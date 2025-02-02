@@ -204,7 +204,7 @@ int main()
         leds_off();
         sleep_ms(100);
 
-        desenho_pio(matrix_numeros[numero_atual], pio, sm, 0.0, 0.5, 0.5);
+        desenho_pio(matrix_numeros[numero_atual], pio, sm, 0.1, 0.0, 0.1);
 
         sleep_ms(100);
     }

@@ -7,6 +7,7 @@
 <p>O programa desenvolvido em Linguagem C para placa Pi Pico W tem como principais objetivos:</p>
 
 - ☑️ Fazer o LED RGB piscar continuamente 5 vezes por segundo na cor vermelha (conectado à GPIO 13)
+- ☑️ Apresentar números de 0 a 9 na matriz de LEDS 5x5 WS2812
 - ☑️ Fazer com que o Botão A (conectado à GPIO 5) incremente os números na Matriz de LEDS 5x5 WS2818 (conectado à GPIO 7)
 - ☑️ Fazer com que o Botão B (conectado à GPIO 6) decremente os números na Matriz de LEDS 5x5 WS2818 (conectado à GPIO 7)
 - ☑️ Estabelecer rotina de interrupção para cada botão
@@ -36,18 +37,17 @@ Siga as etapas a seguir:
 
   - Pronto! Sua placa, devidamente conectada, será capaz de rodar o código :D <br>
 
-  - Aperte o botão A para incrementar os números exibidos na matriz 5x5 <br>
+  - Aperte o botão A para incrementar os números exibidos na matriz 5x5 (Número atual + 1) <br>
   ![image](https://github.com/user-attachments/assets/ba9fce76-38ce-48d7-a005-48ff8b5971fd)
 
-  - Aperte o Botão B para decrementar os números exibidos na matriz 5x5 <br>
+  - Aperte o Botão B para decrementar os números exibidos na matriz 5x5 (Número atual - 1) <br>
   ![image](https://github.com/user-attachments/assets/9797e98b-bee2-4067-87aa-a199651bb29d)
 
   - O LED RGB está configurado para piscar 5 vezes por segundo <br>
-    
 ---
 
 <h2>Para mais detalhe sobre o funcionamento...</h2>
-Visite: 
+Visite: https://drive.google.com/file/d/1y-QtxUZpLUwN4JEu_1G4mcBoxaMCvu6P/view?usp=sharing
 
 ### Autor
 ---
